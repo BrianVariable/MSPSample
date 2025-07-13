@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: google_sheets
+      schema: google_sheets
+      tables:
+        - name: "ticket"
+          identifier: "ticket"
+        - name: "it_agent"
+          identifier: "it_agent"

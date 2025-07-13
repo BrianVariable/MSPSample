@@ -1,0 +1,43 @@
+
+version: 2
+
+snapshots:
+  - name: ticket_snapshot
+    description: "Snapshot of support tickets with change tracking"
+    tests:
+      - unique:
+          column_name: ID_Ticket
+          severity: error
+      - not_null:
+          column_name: ID_Ticket
+          severity: error
+    columns:
+      - name: ID_Ticket
+        description: "Primary key of the ticket"
+      
+      - name: Fecha
+        description: "date of ticket arrival"
+
+      - name: Status
+        description: "Current status of the ticket"
+
+  - name: person_snapshot
+    description: "Snapshot of persons by email using check_cols strategy"
+    tests:
+      - unique:
+          column_name: AGENT_ID
+          severity: error
+      - not_null:
+          column_name: AGENT_ID
+          severity: error
+    columns:
+      - name: EMAIL
+        description: "Unique identifier for person"
+
+      - name: FULL_NAME
+        description: "Full name of the person"
+
+      - name: AGENT_ID
+        description: "Agent responsible for the person"
+
+
