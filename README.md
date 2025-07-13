@@ -18,5 +18,8 @@ DBT:
 
 Hex.tech:
 - Service admin user provisioned for hex in snowflake and simple visuals created.
+- Assumed all tickets were resolved as data tend to suggest this but would be something I clarify in actual work.
 - Chose to add ticket by request type as an additional metric and a distribution of satisfaction.  Some other things I would have liked to have done but time and data permitting.  Could easily create a agent scorecard, as well as if data allowed some level of insight into ticket by agent seniority.
 https://app.hex.tech/01980565-bf91-7111-9ffd-2b00a8349664/app/01980566-4539-7111-a902-b1e5b006c7a0/latest
+
+Total Hours Spend: 4
