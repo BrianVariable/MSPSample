@@ -18,3 +18,4 @@ DBT:
 
 Hex.tech:
 - Service admin user provisioned for hex in snowflake and simple visuals created.
+https://app.hex.tech/01980565-bf91-7111-9ffd-2b00a8349664/app/01980566-4539-7111-a902-b1e5b006c7a0/latest
